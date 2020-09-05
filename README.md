@@ -11,7 +11,9 @@ You should reboot after install to test whether its working. If the script has r
 
 You should be able to compile this quite easily and run it on your device.
 
-**Changelog v1.1:**
+**Changelog v1.2:**
+
+1.2 Fixed postinst
 
 1.1 Fixed permissions on files to execute correctly on install and boot
 
