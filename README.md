@@ -5,6 +5,8 @@ MDNSFlush was [originally created by nathanaccidentally](https://github.com/nath
 
 I've modified it as a fix [for this LetMeBlock issue](https://github.com/PoomSmart/LetMeBlock/issues/15) on Odysseyra1n.
 
+mDNSrestart should fix issues related to mDNSResponder & mDNSResponderHelper on boot. mDNSrestart uses a LaunchDaemon to run a bash script on boot, and stops running immidiately after the script has finished running. The daemon will only launch once every boot.
+
 You should be able to compile this quite easily and run it on your device.
 
 **Changelog v1.0:**
