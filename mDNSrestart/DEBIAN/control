@@ -1,8 +1,8 @@
 Package: com.git-anish.mDNSrestart
 Name: mDNSrestart
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
-Pre-Depends: dpkg (>= 1.13.25-5)
+Pre-Depends: dpkg (>= 1.20.5-1)
 Description: A system package for restarter for mDNSResponder & mDNSResponderHelper.
 Maintainer: git-anish <anish@hey.com>
 Author: git-anish <anish@hey.com>
