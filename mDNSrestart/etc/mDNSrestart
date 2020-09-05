@@ -1,14 +1,12 @@
 #!/bin/bash
 
-echo "Running mDNSFlush daemon..."
-date >> /tmp/baadflush.log
+echo "Running mDNSrestart daemon..."
+date >> /tmp/mDNSrestart.log
 killall -9 mDNSResponder
 echo "Attempted to kill mDNSResponder..."
 killall -9 mDNSResponderHelper
-echo "Attempted to kill mDNSResponder..."
+echo "Attempted to kill mDNSResponderHelper..."
 
 echo "Done. Quitting."
-
-date >> /tmp/baaadflush.log
 
 exit
