@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Thanks for installing mDNSrestart!"
+echo "mDNSrestart was made possible by mDNSFlush created by nathanaccidentally"
 echo "You may fork the GitHub page to implement this."
 
 echo "Changing permissions of daemon..."
@@ -13,4 +14,4 @@ echo "Chaging owner to root..."
 chown root:wheel /etc/mDNSrestart
 echo "Permissions are set..."
 
-echo "Done! You should probably reboot to start..."
+echo "Done! You should probably reboot to test this"
