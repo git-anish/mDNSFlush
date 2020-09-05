@@ -1,11 +1,15 @@
 #!/bin/bash
 
 echo "Thanks for installing mDNSrestart! its made by Anish S"
-echo "You can learn more about me on https://anishs.me/"
-echo "/n"
+echo ""
+echo "You can learn more about me on:"
+echo "https://anishs.me/"
+echo ""
 echo "mDNSrestart was made possible by mDNSFlush created by nathanaccidentally"
+echo ""
 echo "You may fork the GitHub page to implement this."
-
+echo ""
+echo ""
 echo "Changing permissions of daemon..."
 chmod 0775 /etc/mDNSrestart
 echo "Changed mDNSrestart to world writable."
@@ -17,4 +21,4 @@ chown root:wheel /etc/mDNSrestart
 
 echo "Permissions are set..."
 
-echo "Done! You should probably reboot and rejailbreak to test this"
+echo "Done! You should reboot and rejailbreak to test this"
