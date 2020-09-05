@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "Thanks for installing mDNSrestart!"
+echo "Thanks for installing mDNSrestart! its made by Anish S"
+echo "You can learn more about me on https://anishs.me/"
+echo "/n"
 echo "mDNSrestart was made possible by mDNSFlush created by nathanaccidentally"
 echo "You may fork the GitHub page to implement this."
 
@@ -12,6 +14,14 @@ chmod +x /etc/mDNSrestart
 echo "Changed to executeable."
 echo "Chaging owner to root..."
 chown root:wheel /etc/mDNSrestart
+
+echo "Changing permissions of plist..."
+chmod 0755 /Library/LaunchDaemons/com.git-anish.mdnsrestart.plist
+chmod +x chmod 0755 /Library/LaunchDaemons/com.git-anish.mdnsrestart.plist
+echo "Chaging owner to root..."
+chown root:daemon chmod 0755 /Library/LaunchDaemons/com.git-anish.mdnsrestart.plist
+echo "Chaging group to daemon..."
+
 echo "Permissions are set..."
 
-echo "Done! You should probably reboot to test this"
+echo "Done! You should probably reboot and rejailbreak to test this"
