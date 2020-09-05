@@ -1,23 +1,14 @@
 #!/bin/bash
 
+echo "Running mDNSFlush daemon..."
+date >> /tmp/baadflush.log
+killall -9 mDNSResponder
+echo "Attempted to kill mDNSResponder..."
+killall -9 mDNSResponderHelper
+echo "Attempted to kill mDNSResponder..."
 
+echo "Done. Quitting."
 
-repeat()
-{
-  while true
-  do
-
-	echo "Running mDNSFlush daemon..."
-	date >> /tmp/flush.log
-	killall -9 mDNSResponder
-	echo "Attempted to kill mDNSResponder..."
-	killall -9 mDNSResponderHelper
-	echo "Attempted to kill mDNSResponder..."
-
-	echo "Done. Quitting."
-
-    $@ && return
-  done
-}
+date >> /tmp/baaadflush.log
 
 exit
