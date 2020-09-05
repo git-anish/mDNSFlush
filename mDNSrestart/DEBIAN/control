@@ -1,4 +1,4 @@
-Package: com.git-anish.mdnsrestart
+Package: com.git-anish.mDNSrestart
 Name: mDNSrestart
 Version: 1.0
 Architecture: iphoneos-arm
