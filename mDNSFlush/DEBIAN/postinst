@@ -1,25 +1,16 @@
 #!/bin/bash
 
-echo "Thanks for installing mDNSFlush!"
+echo "Thanks for installing mDNSrestart!"
 echo "You may fork the GitHub page to implement this."
 
 echo "Changing permissions of daemon..."
-chmod 0775 /etc/mDNSFlush
-echo "Changed mDNSFlush to world writable."
+chmod 0775 /etc/mDNSrestart
+echo "Changed mDNSrestart to world writable."
 echo "Changing file to executeable..."
-chmod +x /etc/mDNSFlush
+chmod +x /etc/mDNSrestart
 echo "Changed to executeable."
 echo "Chaging owner to root..."
-chown root:wheel /etc/mDNSFlush
+chown root:wheel /etc/mDNSrestart
 echo "Permissions are set..."
-
-
-file="/etc/SystemHostsBlocker"
-if [ -f "$file" ]
-then
-	echo "Thanks for having SystemHostsBlocker! It truly means a lot! Enjoy mDNSFlush!"
-else
-	echo "Thanks for grabbing mDNSFlush! You should also try SystemHostsBlocker!"
-fi
 
 echo "Done! You should probably reboot to start..."
