@@ -13,6 +13,8 @@ You should be able to compile this quite easily and run it on your device.
 
 **Changelog v1.2:**
 
+1.3 Fixed depictions and added dependencies
+
 1.2 Fixed postinst
 
 1.1 Fixed permissions on files to execute correctly on install and boot
