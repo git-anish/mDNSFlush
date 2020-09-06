@@ -1,6 +1,6 @@
 # mDNSrestart for Odysseyra1n!
 
-mDNSrestart relaunches mDNSResponder and mDNSResponderHelper on boot. It does this through a LaunchDaemon thats set to run a script on boot (only in the jailbroken environment). The LaunchDaemon will run once per boot and never again. You can look at the log in /tmp/mDNSrestart.log to see when it was last run.
+mDNSrestart relaunches mDNSResponder and mDNSResponderHelper after a successful boot. It does this through a LaunchDaemon thats set to run a script on boot (only within a jailbroken environment). The LaunchDaemon will run once per boot and never again. You can look at the log in /tmp/mDNSrestart.log to see when it was last run.
 
 mDNSrestart was made possible by [nathanaccidentally's mDNSFlush](https://github.com/nathanaccidentally/mDNSFlush).
 
