@@ -1,9 +1,10 @@
 Package: com.git-anish.mDNSrestart
 Name: mDNSrestart
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm
 Pre-Depends: dpkg (>= 1.20.5-1)
 Description: A system package for restarting mDNSResponder & mDNSResponderHelper. This will install a daemon that will run only once at boot then never again until a system restart and rejailbreak.
 Maintainer: Anish S <anish@hey.com>
 Author: Anish S <anish@hey.com>
 Section: System
+Depiction: https://anishsharma.me/repo/depictions/?p=com.git-anish.mDNSrestart
