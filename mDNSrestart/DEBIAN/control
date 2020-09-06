@@ -4,6 +4,6 @@ Version: 1.2
 Architecture: iphoneos-arm
 Pre-Depends: dpkg (>= 1.20.5-1)
 Description: A system package for restarting mDNSResponder & mDNSResponderHelper. This will install a daemon that will run only once at boot then never again until a system restart and rejailbreak.
-Maintainer: git-anish <anish@hey.com>
-Author: git-anish <anish@hey.com>
+Maintainer: Anish S <anish@hey.com>
+Author: Anish S <anish@hey.com>
 Section: System
