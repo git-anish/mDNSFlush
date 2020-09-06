@@ -10,7 +10,7 @@ You should reboot after install to test whether its working. If the script has r
 
 You should be able to compile this quite easily and run it on your device.
 
-**Changelog v1.2:**
+**Changelog v1.3:**
 
 1.3 Fixed depictions and added dependencies
 
