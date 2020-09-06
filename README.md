@@ -1,13 +1,12 @@
 # mDNSrestart for Odysseyra1n!
 
+mDNSrestart relaunches mDNSResponder and mDNSResponderHelper on boot. It does this through a LaunchDaemon thats set to run a script on boot (only in the jailbroken environment). The LaunchDaemon will run once per boot and never again. You can look at the log in /tmp/mDNSrestart.log to see when it was last run.
 
-MDNSFlush was [originally created by nathanaccidentally](https://github.com/nathanaccidentally/mDNSFlush) for flushing the ```mDNSResponder``` and ```discoverd``` cache so that you shouldn't run into any issues with network dropping/disconnecting.
+mDNSrestart was made possible by [nathanaccidentally's mDNSFlush](https://github.com/nathanaccidentally/mDNSFlush)
 
-I've modified it as a fix [for this LetMeBlock issue](https://github.com/PoomSmart/LetMeBlock/issues/15) on Odysseyra1n.
+mDNSrestart should fix issues [15](https://github.com/PoomSmart/LetMeBlock/issues/15) & [17](https://github.com/PoomSmart/LetMeBlock/issues/17) on Odysseyra1n.
 
-mDNSrestart should fix issues related to mDNSResponder & mDNSResponderHelper on boot. mDNSrestart uses a LaunchDaemon to run a bash script on boot, and stops running immidiately after the script has finished running. The daemon will only launch once every boot.
-
-You should reboot after install to test whether its working. If the script has run it'll concatonate the current date & time after boot to /tmp/mDNSrestart.log
+You should reboot after install to test whether its working. If the script has run, it will concatonate the current date & time after boot to /tmp/mDNSrestart.log
 
 You should be able to compile this quite easily and run it on your device.
 
