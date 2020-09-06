@@ -7,7 +7,7 @@ I've modified it as a fix [for this LetMeBlock issue](https://github.com/PoomSma
 
 mDNSrestart should fix issues related to mDNSResponder & mDNSResponderHelper on boot. mDNSrestart uses a LaunchDaemon to run a bash script on boot, and stops running immidiately after the script has finished running. The daemon will only launch once every boot.
 
-You should reboot after install to test whether its working. If the script has run it'll concatonate the current date after boot to /tmp/flush.log
+You should reboot after install to test whether its working. If the script has run it'll concatonate the current date & time after boot to /tmp/mDNSrestart.log
 
 You should be able to compile this quite easily and run it on your device.
 
