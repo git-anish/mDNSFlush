@@ -2,7 +2,7 @@
 
 mDNSrestart relaunches mDNSResponder and mDNSResponderHelper on boot. It does this through a LaunchDaemon thats set to run a script on boot (only in the jailbroken environment). The LaunchDaemon will run once per boot and never again. You can look at the log in /tmp/mDNSrestart.log to see when it was last run.
 
-mDNSrestart was made possible by [nathanaccidentally's mDNSFlush](https://github.com/nathanaccidentally/mDNSFlush)
+mDNSrestart was made possible by [nathanaccidentally's mDNSFlush](https://github.com/nathanaccidentally/mDNSFlush).
 
 mDNSrestart should fix issues related to LetMeBlock & other ad-block related tweaks [15](https://github.com/PoomSmart/LetMeBlock/issues/15) & [17](https://github.com/PoomSmart/LetMeBlock/issues/17) on Odysseyra1n.
 
