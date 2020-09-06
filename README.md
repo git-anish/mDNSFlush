@@ -4,7 +4,7 @@ mDNSrestart relaunches mDNSResponder and mDNSResponderHelper on boot. It does th
 
 mDNSrestart was made possible by [nathanaccidentally's mDNSFlush](https://github.com/nathanaccidentally/mDNSFlush)
 
-mDNSrestart should fix issue LetMeBlock [15](https://github.com/PoomSmart/LetMeBlock/issues/15) & [17](https://github.com/PoomSmart/LetMeBlock/issues/17) on Odysseyra1n.
+mDNSrestart should fix issues related to LetMeBlock & other ad-block related tweaks [15](https://github.com/PoomSmart/LetMeBlock/issues/15) & [17](https://github.com/PoomSmart/LetMeBlock/issues/17) on Odysseyra1n.
 
 You should reboot after install to test whether its working. If the script has run, it will concatonate the current date & time after boot to /tmp/mDNSrestart.log
 
