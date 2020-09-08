@@ -7,4 +7,4 @@ Description: mDNSrestart relaunches mDNS related services on boot
 Maintainer: Anish S <anish@hey.com>
 Author: Anish S <anish@hey.com>
 Section: System
-Depiction: https://repo.anishsharma.me/depictions/?p=com.git-anish.mDNSrestart
+Depiction: https://repo.anishs.xyz/depictions/?p=com.git-anish.mDNSrestart
