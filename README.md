@@ -8,7 +8,7 @@ mDNSrestart was made possible by [nathanaccidentally's mDNSFlush](https://github
 
 mDNSrestart should fix issues related to LetMeBlock & other ad-block related tweaks [15](https://github.com/PoomSmart/LetMeBlock/issues/15) & [17](https://github.com/PoomSmart/LetMeBlock/issues/17) on Odysseyra1n.
 
-You should reboot after install to test whether its working. If the script has run, it will concatonate the current date & time after boot to /tmp/mDNSrestart.log
+You should reboot after install to test whether its working. If the script has run, it will concatenate the current date & time after boot to /tmp/mDNSrestart.log
 
 You should be able to compile this quite easily and run it on your device.
 
