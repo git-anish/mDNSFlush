@@ -12,7 +12,9 @@ You should reboot after install to test whether its working. If the script has r
 
 You should be able to compile this quite easily and run it on your device.
 
-**Changelog v1.3:**
+**Changelog:**
+
+1.4 Fixed Packages file and changed repo domain
 
 1.3 Fixed depictions and added dependencies
 
