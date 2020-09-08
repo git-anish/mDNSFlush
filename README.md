@@ -1,6 +1,6 @@
 # mDNSrestart for Odysseyra1n!
 
-You can install this from [my repo] (https://repo.anishs.xyz/), I'm hoping to have this submitted on Packix this week.
+You can install this from [my repo](https://repo.anishs.xyz/), I'm hoping to have this submitted on Packix this week.
 
 mDNSrestart relaunches mDNSResponder and mDNSResponderHelper after a successful boot. It does this through a LaunchDaemon thats set to run a script on boot (only within a jailbroken environment). The LaunchDaemon will run once per boot and never again. You can look at the log in /tmp/mDNSrestart.log to see when it was last run.
 
