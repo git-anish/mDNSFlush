@@ -1,6 +1,6 @@
 Package: com.git-anish.mDNSrestart
 Name: mDNSrestart
-Version: 1.3
+Version: 1.4
 Architecture: iphoneos-arm
 Pre-Depends: dpkg (>= 1.15), com.ps.letmeblock
 Description: mDNSrestart relaunches mDNS related services on boot
